@@ -6,26 +6,26 @@
 # Purpose:                  Using Bash commands in Python.
 
 # Declaration of variables:
-var1="This is your username:"
-var2="This is your ip info:"
-var3="This is your system info:"
+var1 = "whoami"
+var2 = "ip a"
+var3 = "lshw -short"
 
 # Declaration of functions:
 
 # Import Libraries
 import os
 
-print(var1)
+print("Username:")
 
-os.system("whoami")
+os.system(var1)
 
-print(var2)
+print("IP Information:")
 
-os.system("ip a")
+os.system(var2)
 
-print(var3)
+print("Hardware Informatin:")
 
-os.system("lshw -short")
+os.system(var3)
 
 
 
