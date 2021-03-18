@@ -29,3 +29,7 @@ if choice == "y":
     print(g.text)
 elif choice == "n":
     print("Goodbye!")
+
+# End
+
+# References: https://realpython.com/python-requests/ https://stackoverflow.com/questions/37565793/how-to-let-the-user-select-an-input-from-a-finite-list
